@@ -1,5 +1,9 @@
 # Motor Log Viewer
 
+> First time setting this up? Start with [SETUP.md](SETUP.md) -- a
+> step-by-step guide (system packages, Python deps, troubleshooting) instead
+> of this file's architecture tour.
+
 A small PySide6 desktop tool for inspecting the CSVs that
 `scripts/log_motor_data.py` produces (per-physical-step torque, speed,
 estimated current, position, and target for all 14 joints), plus the
